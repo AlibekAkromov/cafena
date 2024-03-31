@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        font: [`Aboreto`],
+                        font1: [`Poppins`],
+                    },
+                    backgroundImage: {
+                        'hero': "url('/images/hero6.png')",
+                        'hero1': "url('/images/hero29.png')",
+                        'hero2': "url('/images/Vector 1.png')",
+                        'hero3': "url('/images/hero30.png')",
+                        'hero4': "url('/images/hero31.png')",
+                    },
+                },
+            },
+            darkMode: "class",
+        }
+    </script>
+</head>
+
+<body class="bg-[#F4F1EE]">
+    <header class="bg-[#F4F1EE] dark:bg-slate-800" id="top">
+        <div class="flex justify-center items center mt-4">
+            <div class="flex gap-7 mr-52 mt-3">
+                <h1 class="text-black hover:text-[#D48A5C] duration-500 cursor-pointer font-font1">Home</h1>
+                <h1 class="text-black hover:text-[#D48A5C] duration-500 cursor-pointer font-font1">About</h1>
+                <h1 class="text-black hover:text-[#D48A5C] duration-500 cursor-pointer font-font1">Menu</h1>
+                <h1 class="text-black hover:text-[#D48A5C] duration-500 cursor-pointer font-font1">Reservation</h1>
+            </div>
+            <div>
+                <img src="./images/hero1.jpg" alt="" width="70">
+            </div>
+            <div class="flex gap-7 ml-52 mt-3">
+                <h1 class="text-black hover:text-[#D48A5C] duration-500 cursor-pointer font-font1">Pages</h1>
+                <h1 class="text-black hover:text-[#D48A5C] duration-500 cursor-pointer font-font1">Shop</h1>
+                <h1 class="text-black hover:text-[#D48A5C] duration-500 cursor-pointer font-font1">Contact</h1>
+            </div>
+            <div class="flex gap-7 ml-20 mt-3">
+                <div>
+                    <img src="./images/hero2.png" alt="">
+                </div>
+                <div class="mt-1">
+                    <img src="images/hero3.png" alt="">
+                </div>
+                <div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="bg-[#F4F1EE]">
+        <div class="mt-32 flex">
+            <div class="flex">
+                <div class="flex flex-col gap-7 ml-44">
+                    <div>
+                        <h1 class="text-black text-4xl w-[540px] font-font">ONE OF THE BES COFFEE HOUSE IN YOURHOME TOWN</h1>
+                    </div>
+                    <div>
+                        <p class="text-gray-500 w-[400px] font-font1">Lorem ipsum dolor sit amet, consectetur adipiscing elit do
+                            eiusmod veniam, quis nostrud exercitation laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <div class="flex gap-6">
+                        <button class="bg-black text-white px-2 py-1 hover:bg-white hover:text-black hover:duration-500 active:bg-[#D48A5C] active:text-white border-none font-font1">Explore More</button>
+                        <button class="bg-[#F4F1EE] text-black border border-[#D48A5C] px-2 py-1 hover:bg-black hover:text-white hover:border-none duration-500 active:bg-[#D48A5C] font-font1">Read More</button>
+                    </div>
+                </div>
+                <div>
+                    <div class="mt-0 ml-32">
+                        <img src="/images/hero4.png" alt="" width="400">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="flex justify-center items-center gap-10 mt-64">
+            <div class="bg-hero1 w-[350px] h-[250px]">
+                <div class="bg-hero2 w-48 h-20">
+                    <div class="ml-2">
+                        <h1 class="text-white text-sm font-font1">01</h1>
+                        <p class="text-black font-font text-sm">Best Coffee Flavor</p>
+                    </div>
+                </div>
+                <div class="mt-28">
+                    <p class="text-white text-sm w-64 font-font1">Curabitur semper erat a lacusey sedny consequat,sit ametey.</p>
+                </div>
+            </div>
+            <div class="bg-hero3 w-[350px] h-[250px]">
+                <div class="bg-hero2 w-48 h-20">
+                    <div class="ml-2">
+                        <h1 class="text-white text-sm font-font1">02</h1>
+                        <p class="text-black font-font text-sm">Proper Roasting</p>
+                    </div>
+                </div>
+                <div class="mt-28">
+                    <p class="text-white text-sm w-64 font-font1">Curabitur semper erat a lacusey sedny consequat,sit ametey.</p>
+                </div>
+            </div>
+            <div class="bg-hero4 w-[350px] h-[250px]">
+                <div class="bg-hero2 w-48 h-20">
+                    <div class="ml-2">
+                        <h1 class="text-white text-sm font-font1">03</h1>
+                        <p class="text-black font-font text-sm">Place to Get Lost</p>
+                    </div>
+                </div>
+                <div class="mt-28">
+                    <p class="text-white text-sm w-64 font-font1">Curabitur semper erat a lacusey sedny consequat,sit ametey.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-hero h-[730px]">
+        <div class="mt-20">
+            <div class="flex flex-col justify-center items-center gap-5">
+                <div class="flex flex-col justify-center items-center gap-5 mt-72">
+                    <h1 class="text-black text-4xl font-font">Roasted CoffeeFor You</h1>
+                    <p class="text-gray-500 w-[600px] font-font1">Donec et nibh maximus, congue est eu, mattis nunc. Praesent utquam quis quam venenatis fringilla. Morbi vestibulum id tellusmmodo mattis. Aliquam erat volutpat.</p>
+                    <button class="bg-black text-white px-2 py-1 hover:bg-white hover:text-black hover:duration-500 active:bg-[#D48A5C] active:text-white border-none font-font1">Explore More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="flex flex-col justify-center items-center h-[650px]">
+            <div class="flex flex-col justify-center items-center gap-5">
+                <button
+                    class="bg-black text-white px-2 py-1 hover:bg-white hover:text-black hover:duration-500 active:bg-[#D48A5C] active:text-white border-none font-font1">Popular
+                    Product</button>
+                <h1 class="text-black text-4xl font-font">Cafena Popular Product</h1>
+            </div>
+            <div class="flex flex-col gap-10 mt-5">
+                <div class="flex justify-center items-center gap-32">
+                    <div class="flex">
+                        <div class="absolute">
+                            <img class="" src="images/hero32.png" alt="" width="130px">
+                        </div>
+                        <div class="flex justify-center items-center flex-col border-2 border-black w-[320px] h-[90px] mt-6 ml-[105px]">
+                            <div class="ml-4">
+                                <h1 class="text-black text-xl font-font">Vicaragua Coffee Beans</h1>
+                            </div>
+                            <div class="ml-56">
+                                <p class="text-[#D48A5C] font-font1">$29</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <div class="absolute">
+                            <img class="" src="images/hero32.png" alt="" width="130px">
+                        </div>
+                        <div class="flex justify-center items-center flex-col border-2 border-black w-[320px] h-[90px] mt-6 ml-[105px]">
+                            <div class="ml-4">
+                                <h1 class="text-black text-xl font-font">Vicaragua Coffee Beans</h1>
+                            </div>
+                            <div class="ml-56">
+                                <p class="text-[#D48A5C] font-font1">$29</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-center items-center gap-32">
+                    <div class="flex">
+                        <div class="absolute">
+                            <img class="" src="images/hero33.png" alt="" width="130px">
+                        </div>
+                        <div class="flex justify-center items-center flex-col border-2 border-black w-[320px] h-[90px] mt-6 ml-[105px]">
+                            <div class="ml-4">
+                                <h1 class="text-black text-xl font-font">Espresso Ristretto</h1>
+                            </div>
+                            <div class="ml-56">
+                                <p class="text-[#D48A5C] font-font1">$29</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <div class="absolute">
+                            <img class="" src="images/hero33.png" alt="" width="130px">
+                        </div>
+                        <div class="flex justify-center items-center flex-col border-2 border-black w-[320px] h-[90px] mt-6 ml-[105px]">
+                            <div class="ml-4">
+                                <h1 class="text-black text-xl font-font">Espresso Ristretto</h1>
+                            </div>
+                            <div class="ml-56">
+                                <p class="text-[#D48A5C] font-font1">$29</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+                <div class="flex justify-center items-center gap-32">
+                    <div class="flex">
+                        <div class="absolute">
+                            <img class="" src="images/hero34.png" alt="" width="130px">
+                        </div>
+                        <div class="flex justify-center items-center flex-col border-2 border-black w-[320px] h-[90px] mt-6 ml-[105px]">
+                            <div class="ml-4">
+                                <h1 class="text-black text-xl font-font">Ethiopia Coffee</h1>
+                            </div>
+                            <div class="ml-56">
+                                <p class="text-[#D48A5C] font-font1">$29</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <div class="absolute">
+                            <img class="" src="images/hero34.png" alt="" width="130px">
+                        </div>
+                        <div class="flex justify-center items-center flex-col border-2 border-black w-[320px] h-[90px] mt-6 ml-[105px]">
+                            <div class="ml-4">
+                                <h1 class="text-black text-xl font-font">Ethiopia Coffee</h1>
+                            </div>
+                            <div class="ml-56">
+                                <p class="text-[#D48A5C] font-font1">$29</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-white">
+        <div class="flex justify-center items-center">
+            <div>
+                <div>
+                    <h1 class="text-black text-4xl w-[400px] font-font">COFFEE MACHINE,BUY FOR HOME</h1>
+                </div>
+                <div class="mt-4">
+                    <p class="text-gray-500 w-[600px] font-font1">Donec et nibh maximus, congue est eu, mattis nunc. Praesent ut quam quis quam venenatis fringilla. Morbi vestibulum id tellus mmodo mattis. Aliquam erat volutpat.</p>
+                </div>
+                <div class="mt-2">
+                    <p class="text-black w-[570px] font-font1">mattis nunc. Praesent ut quam quis quam venenatis fringilla. Morbi vestibulum id tellus mmodo mattis.</p>
+                </div>
+                <div class="mt-4">
+                    <button class="bg-black text-white px-2 py-1 hover:bg-white hover:text-black hover:duration-500 active:bg-[#D48A5C] active:text-white border-none font-font1">Discover Now</button>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <img src="images/hero8.png" alt="" width="400px">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="flex flex-col justify-center items-center">
+            <div class="flex justify-center items-center gap-96 mt-10">
+                <h1 class="text-black text-4xl font-font">Cafena Best Product</h1>
+                <button
+                    class="bg-black text-white px-2 py-1 hover:bg-white hover:text-black hover:duration-500 active:bg-[#D48A5C] active:text-white border-none font-font1">Cafena Best Product</button>
+            </div>
+            <div class="mt-10">
+                <div class="flex justify-beetween w-full">
+                    <div class="flex justify-between gap-5 w-full flex-row">
+                        <div class="bg-white p-3 flex flex-col justify-center items-center">
+                            <div>
+                                <img src="/images/hero25.png" alt="">
+                            </div>
+                            <div class="flex flex-col gap-6 w-87 h-44">
+                                <h1 class="flex text-black">
+                                    <div class="font-font1">
+                                        Rating:
+                                    </div>
+                                    <div class="mt-1">
+                                        <img src="/images/hero27.png" alt="">
+                                    </div>
+                                    <div class="mt-1">
+                                        <img src="/images/hero27.png" alt="">
+                                    </div>
+                                    <div class="mt-1">
+                                        <img src="/images/hero27.png" alt="">
+                                    </div>
+                                    <div class="mt-1">
+                                        <img src="/images/hero27.png" alt="">
+                                    </div>
+                                    <div class="mt-1">
+                                        <img src="/images/hero27.png" alt="">
+                                    </div>
+                                </h1>
+                                <h1 class="text-black w-[300px] text-2xl font-font">Vicaragua Coffee Beans</h1>
+                                <h1
+                                    class="flex text-black hover:text-gray-500 hover:duration-500 active:text-[#D48A5C] font-font1">
+                                    Price:
+                                    <p class="text-[#EAB665] hover:text-black hover:duration-500 active:text-gray-500 font-font1">
+                                        $25</p>
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="bg-white p-3 flex flex-col justify-center items-center">
+                            <div>
+                                <img src="/images/hero26.png" alt="">
+                            </div>
+                            <div class="flex flex-col gap-6 w-87 h-44">
+                                <h1 class="flex text-black">
+                                    <div class="font-font1">
+                                        Rating:
+                                    </div>
+                                    <div class="mt-1">
+                                        <img src="/images/hero27.png" alt="">
+                                    </div>
+                                    <div class="mt-1">
+                                        <img src="/images/hero27.png" alt="">
+                                    </div>
+                                    <div class="mt-1">
+                                        <img src="/images/hero27.png" alt="">
+                                    </div>
+                                    <div class="mt-1">
+                                        <img src="/images/hero27.png" alt="">
+                                    </div>
+                                    <div class="mt-1">
+                                        <img src="/images/hero27.png" alt="">
+                                    </div>
+                                </h1>
+                                <h1 class="text-black w-[300px] text-2xl font-font">Americano Coffee</h1>
+                                <h1
+                                    class="flex text-black hover:text-gray-500 hover:duration-500 active:text-[#D48A5C] font-font1">
+                                    Price:
+                                    <p class="text-[#EAB665] hover:text-black hover:duration-500 active:text-gray-500 font-font1">
+                                        $25</p>
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="bg-white p-3 flex flex-col justify-center items-center">
+                            <div>
+                                <img src="/images/hero28.png" alt="">
+                            </div>
+                            <div class="flex flex-col gap-6 w-87 h-44">
+                                <h1 class="flex text-black">
+                                    <div class="font-font1">
+                                        Rating:
+                                    </div>
+                                    <div class="mt-1">
+                                        <img src="/images/hero27.png" alt="">
+                                    </div>
+                                    <div class="mt-1">
+                                        <img src="/images/hero27.png" alt="">
+                                    </div>
+                                    <div class="mt-1">
+                                        <img src="/images/hero27.png" alt="">
+                                    </div>
+                                    <div class="mt-1">
+                                        <img src="/images/hero27.png" alt="">
+                                    </div>
+                                    <div class="mt-1">
+                                        <img src="/images/hero27.png" alt="">
+                                    </div>
+                                </h1>
+                                <h1 class="text-black w-[300px] text-2xl font-font">Virgin Coffee Gred</h1>
+                                <h1
+                                    class="flex text-black hover:text-gray-500 hover:duration-500 active:text-[#D48A5C] font-font1">
+                                    Price:
+                                    <p class="text-[#EAB665] hover:text-black hover:duration-500 active:text-gray-50 font-font1">
+                                        $25</p>
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="mt-10">
+            <div class="flex flex-col justify-center items-center">
+                <div>
+                    <button
+                        class="bg-black text-white px-2 py-1 hover:bg-white hover:text-black hover:duration-500 active:bg-[#D48A5C] active:text-white border-none font-font1">CUSTOMER
+                        FEEDBACK</button>
+                </div>
+                <div class="mt-5">
+                    <h1 class="text-black text-4xl font-font">OUR CUSTOMER REVIEW</h1>
+                </div>
+            </div>
+            <div class="flex justify-center items-center gap-52 mt-3">
+                <div>
+                    <img src="/images/hero10.png" alt="">
+                </div>
+                <div>
+                    <p class="text-black text-center font-font1">It is a long established fact that a reader will be distracted by
+                        the readable<br> content of a page when looking at its layout. The point of using Lorem<br>
+                        opposed to using 'Content here, content here..</p>
+                </div>
+                <div>
+                    <img src="/images/hero11.png" alt="">
+                </div>
+            </div>
+            <div>
+                <div class="flex flex-col gap-3 justify-center items-center mt-5">
+                    <div>
+                        <img src="/images/hero12.png" alt="">
+                    </div>
+                    <div>
+                        <h1 class="text-black font-font1">Rasalida Williamson</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="flex justify-center items-center mt-28">
+            <div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2997.6905655430232!2d69.22708209999999!3d41.2938385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b5ed33c8abb%3A0xded9738e62612afb!2sCoddy%20Camp%20Novza!5e0!3m2!1sen!2s!4v1711563495950!5m2!1sen!2s"
+                    width="550" height="394" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="bg-white flex flex-col justify-center items-center gap-5 w-[500px] h-[394px]">
+                <h2 class="text-[#D48A5C] font-font1">RESERVATION</h2>
+                <h1 class="text-black text-4xl font-font">BOOKING A TABLE</h1>
+                <input class="bg-[#F4F1EE] py-1 px-8 font-font1" placeholder="4 Person" type="text" name="" id="">
+                <input class="bg-[#F4F1EE] py-1 px-8 font-font1" placeholder="12/06/2022" type="text" name="" id="">
+                <input class="bg-[#F4F1EE] py-1 px-8 font-font1" placeholder="Email" type="text" name="" id="">
+                <button
+                    class="bg-black text-white px-2 py-1 hover:bg-white hover:text-black hover:duration-500 active:bg-[#D48A5C] active:text-white border-none font-font1">BOOK
+                    A TABLE</button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="flex flex-col justify-center items-center my-20">
+            <div class="flex flex-col gap-5 justify-center items-center">
+                <div>
+                    <button
+                        class="bg-black text-white px-2 py-1 hover:bg-white hover:text-black hover:duration-500 active:bg-[#D48A5C] active:text-white border-none font-font1">FROM
+                        OUR BLOG</button>
+                </div>
+                <div>
+                    <h1 class="text-black text-4xl font-font">OUR NEWS & ARTICLES</h1>
+                </div>
+            </div>
+            <div class="flex mt-10 gap-10">
+                <div class="flex flex-col">
+                    <div>
+                        <img src="/images/hero22.png" alt="">
+                    </div>
+                    <div class="flex flex-col gap-3 bg-black w-87 h-44">
+                        <h1 class="flex text-[#EAB665] font-font1">
+                            BY:
+                            <p class="text-white font-font1">Cafena / Burger / Apr 30, 2022</p>
+                        </h1>
+                        <h1 class="text-white w-[300px] text-2xl font-font">Build A Cool Morning With Cafena Coffee</h1>
+                        <a class="text-[#EAB665] hover:text-white hover:duration-500 active:text-[#D48A5C] font-font1"
+                            href="https://www.figma.com/file/IPluqUOZDPbM8D14VrYPgX/CAFENA?type=design&node-id=87-630&mode=design&t=sYc5bq3dSx1Kh4F2-0">READ
+                            MORE →</a>
+                    </div>
+                </div>
+                <div class="flex flex-col">
+                    <div>
+                        <img src="/images/hero23.png" alt="">
+                    </div>
+                    <div class="flex flex-col gap-3 bg-black w-87 h-44">
+                        <h1 class="flex text-[#EAB665] font-font1">
+                            BY:
+                            <p class="text-white font-font1">Cafena / Burger / Apr 30, 2022</p>
+                        </h1>
+                        <h1 class="text-white w-[300px] text-2xl font-font">Build A Cool Morning With Cafena Coffee</h1>
+                        <a class="text-[#EAB665] hover:text-white hover:duration-500 active:text-[#D48A5C] font-font1"
+                            href="https://www.figma.com/file/IPluqUOZDPbM8D14VrYPgX/CAFENA?type=design&node-id=87-630&mode=design&t=sYc5bq3dSx1Kh4F2-0">READ
+                            MORE →</a>
+                    </div>
+                </div>
+                <div class="flex flex-col">
+                    <div>
+                        <img src="/images/hero24.png" alt="">
+                    </div>
+                    <div class="flex flex-col gap-3 bg-black w-87 h-44">
+                        <h1 class="flex text-[#EAB665] font-font1">
+                            BY:
+                            <p class="text-white">Cafena / Burger / Apr 30, 2022</p>
+                        </h1>
+                        <h1 class="text-white w-[300px] text-2xl font-font">Build A Cool Morning With Cafena Coffee</h1>
+                        <a class="text-[#EAB665] font-font1"
+                            href="https://www.figma.com/file/IPluqUOZDPbM8D14VrYPgX/CAFENA?type=design&node-id=87-630&mode=design&t=sYc5bq3dSx1Kh4F2-0">READ
+                            MORE →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div>
+            <div>
+                <a href="#top" class="flex flex-col justify-center items-center gap-3">
+                    <img src="/images/hero19.png" alt="">
+                    <h1 class="text-black font-font1">GO TO TOP</h1>
+                </a>
+            </div>
+            <div class="flex justify-center items-center gap-56 mt-10">
+                <div class="flex">
+                    <img src="/images/hero15.png" alt="">
+                    <h1 class="text-black font-font1">Phone:</h1>
+                    <a href="tel:+88019 339 702 520"
+                        class="text-gray-500 hover:text-black hover:duration-500 active:text-[#D48A5C] font-font1">+88019 339 702
+                        520</a>
+                </div>
+                <div class="flex">
+                    <img src="/images/hero16.png" alt="">
+                    <h1>Address:</h1>
+                    <p class="text-gray-500 hover:text-black hover:duration-500 active:text-[#D48A5C] font-font1">30 North Wes New
+                    </p>
+                </div>
+                <div class="flex">
+                    <div>
+                        <input class="bg-white px-8 py-1 font-font1" placeholder="Enter your email" type="email" name="" id="">
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-center items-center gap-[550px] mt-20">
+                <div class="flex flex-col gap-3">
+                    <img src="/images/hero1.jpg" alt="" width="100">
+                    <p class="text-gray-500 w-[450px] font-font1">Donec et nibh maximus, congue est eu, mattis nunc. Praesent ut
+                        quam quis quam venenatis fringilla. Morbi vestibulum</p>
+                </div>
+                <div class="flex gap-3 mt-20">
+                    <a href="https://ru-ru.facebook.com/" target="_blank">
+                        <img src="/images/hero18.png" alt="">
+                    </a>
+                    <a href="https://www.instagram.com/">
+                        <img src="/images/hero20.png" alt="">
+                    </a>
+                    <a href="https://twitter.com/">
+                        <img src="/images/hero21.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="flex flex-col justify-center mt-28">
+                <div>
+                    <hr>
+                </div>
+                <div class="flex justify-center items-center mt-5">
+                    <h1 class="text-gray-500 font-font1">ALL RIGHT RESERVED © 2022</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
